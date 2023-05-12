@@ -1,0 +1,20 @@
+<%- include('../partials/head',{titulo:'Usuarios Registrados'}); %>
+<body>
+   <div class="container">
+      <h1>Lista de usuarios</h1>
+      <table>
+         <thead>
+          <th>name</th>
+          <th>email</th>
+        </thead>
+         <% lista.forEach(user=>{ %>
+            <tr>
+               <td><%=user.name%></td>
+               <td><%=user.email%></td>
+            </tr>
+
+         <% }) %>
+      </table>
+   </div> 
+</body>
+</html>

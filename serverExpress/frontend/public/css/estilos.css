@@ -1,0 +1,86 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+    background: gainsboro;
+    height: 100vh;
+
+}
+
+.container{
+   width: 40%;
+   margin: 5% auto;
+   height: auto;
+   background-color: white; 
+   display: flex;   
+   flex-direction: column;   
+   justify-content: center;
+   align-items: center;
+   padding: 2%;
+   
+}
+
+.form-container{
+   width: 50%;
+   margin-top: 2%;
+   height: 200px;
+   border:2px solid brown;   
+   padding: 2%;   
+   justify-self: center;
+   align-self: center;
+}
+
+
+.forma{
+   margin-top: 30px;
+   display: flex;   
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.forma input{
+  width: 200px;
+  height: 30px; 
+  margin-bottom: 2em; 
+  
+}
+
+.btn{
+   
+   color: white;
+   background-color: rgb(48, 150, 245);
+   width: 100px;
+   height: 30px;
+}
+
+.btn:hover{
+   
+   background-color: rgb(39, 129, 39);
+   transition-property: all;
+   transition-duration: 0.5s;
+   transition-timing-function: linear;
+}
+
+h1 span{
+   color:green;
+}
+
+table{
+  margin-top:1.5em; 
+}
+
+thead{
+  font-size: 1.5em;
+  color: brown; 
+  background-color: white;
+}
+
+tr td {
+  color:blue;
+  padding: 0.7em;
+  background-color: gainsboro;
+   
+}

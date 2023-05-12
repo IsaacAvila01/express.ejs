@@ -1,0 +1,17 @@
+<%- include('partials/head',{titulo:'Inicio de Sesión'}); %>
+<body>
+    <div class="container">
+        <h1>Iniciar Sesión</h1>
+        <div class="form-container">
+        <form action="/iniciarSesion" method="post">
+          <div class="forma">
+            <input name="user" type="text" placeholder="nombre de usuario">
+            <input name="passwd" type="password" placeholder="contraseña">
+            <input  class="btn" type="submit" type="c" value="Ingresar">
+          </div>
+        </form>
+        </div>
+    
+    </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!--
+    EJS: Javascript integrado en HTML
+         Es un motor de visualización (plantillas) que permite incorporar en páginas HTML datos
+         generados por un programa servidor, como resultado del procesamiento de peticiones de usuario o de otos programas. 
+
+    Sintaxis
+
+    <% %> para incluir código Javascript en el HTML (scriptlet)
+
+-->
+
+<%- include('../partials/head',{titulo:'Página principal'}); %>
+<body>
+    <div class="container">
+        <h1>Bienvenido <span> <%=user%> </span></h1> 
+    </div>
+</body>
+</html>
